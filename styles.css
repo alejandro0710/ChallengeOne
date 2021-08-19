@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Lexend Deca', sans-serif;@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+}
+main{
+    background:  hsl(233, 47%, 7%);
+    padding: 7%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+    display: flex;
+    justify-content: center;
+}
+.sectionCard{
+    background: hsl(244, 38%, 16%);
+    width: 330px;
+    border-radius: 10px;
+}
+.sectionCard img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.texto {
+    text-align: center;
+    padding: 30px; 
+    padding-bottom: 20px;
+}
+.texto h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 2.6rem;
+}
+.colorTexto {
+    color: hsl(277, 64%, 61%);
+}
+.texto p{
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 1.5;
+    font-size: 1.5rem;
+    padding: 10px;
+}
+
+.estadisticas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.3;
+    margin-bottom: 25px;
+}
+.estadisticas div{
+    margin:10px;
+}
+.estadisticas h3{
+    color:hsl(0, 0%, 100%) ;
+    font-size: 2.4rem;
+}
+.estadisticas p{
+    color: hsla(0, 0%, 100%, 0.6);
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+}
