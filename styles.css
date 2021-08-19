@@ -20,7 +20,7 @@ main{
 }
 .sectionCard{
     background: hsl(244, 38%, 16%);
-    width: 330px;
+    width: 95%;
     border-radius: 10px;
 }
 .sectionCard img{
