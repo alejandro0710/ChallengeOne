@@ -2,16 +2,26 @@ main{
     padding: 11%;
     padding-top: 9.41%;
     padding-bottom: 9.40%;
+    max-width: 1366px;
+    min-height: 900;
 }
 
 .sectionCard{
     display: flex;
 }
-.sectionCard img{
+.img{
     order: 2;
     width: 50%;
     border-top-left-radius: 0px;
     border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background: hsl(277deg 88% 69%);
+}
+.img img{
+    height: 100%;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    mix-blend-mode:multiply;
 }
 
 .pc{
@@ -19,6 +29,7 @@ main{
     width: 50%;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    padding: 20px;
 }
 
 .texto {
@@ -26,11 +37,32 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    text-align: initial;
+}
+.texto h1{
+    font-size: 3rem;
+}
+.texto p{
+    padding: 0;
+    padding-right: 50px;
+    font-size: 1.3rem;
 }
 
 .estadisticas {
     height: 30%;
     flex-direction: row;
-    justify-content: center;
+    justify-content: initial;
     align-items: stretch;
+    padding-left: 30px;
+}
+.estadisticas div{
+    text-align: initial;
+    margin-right: 10%;
+    margin-left: 0;
+}
+.estadisticas h3{
+    font-size: 2.1rem;
+}
+.estadisticas p{
+    font-size: 1rem;
 }
